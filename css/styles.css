@@ -1,0 +1,124 @@
+body {
+    font-size: 13px;
+}
+
+main {
+    height: 2500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(260, 100%, 95%);
+}
+
+.barlow-semi-condensed-medium {
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.barlow-semi-condensed-semibold {
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Barlow Semi Condensed", serif;
+    margin: 0;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.grid-container {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+}
+
+.testimonial {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.testimonial-author {
+    display: flex;
+    height: 60px;
+}
+
+.image-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.author-details {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.daniel-clifford {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+.daniel-clifford img {
+    outline: 2px solid hsl(264, 82%, 80%);
+}
+
+.daniel-clifford .verified-graduate {
+    color: hsl(214, 17%, 92%);
+}
+
+.jonathan-walters {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.jonathan-walters .verified-graduate {
+    color: hsl(0, 0%, 81%);
+}
+
+.jeanette-harmon {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+.patrick-abrams {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.patrick-abrams img {
+    outline: 2px solid hsl(263, 55%, 52%);
+}
+
+.kira-whittle {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+.kira-whittle .verified-graduate {
+    color: hsl(224, 10%, 45%);
+}
