@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <!-- Google font -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- custom CSS link -->
     <title>Frontend Mentor | [Challenge Name Here]</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -23,12 +29,14 @@
   <body>
     <main>
       <div class="grid-container">
-        <div class="testimonial">
+        <div class="testimonial daniel-clifford">
           <div class="testimonial-author">
-            <img src="#" alt="author-image" />
+            <div class="image-container">
+              <img src="images/image-daniel.jpg" alt="author-image" />
+            </div>
             <div class="author-details">
-              <h4 class="author-name">Daniel Clifford</h4>
-              <p>Verified Graduate</p>
+              <h2 class="author-name barlow-semi-condensed-semibold">Daniel Clifford</h2>
+              <h3 class="verified-graduate barlow-semi-condensed-medium">Verified Graduate</h3>
             </div>
           </div>
           <div class="testimonial-title">
@@ -38,7 +46,7 @@
             </h1>
           </div>
           <div class="testimonial-quote">
-            <p>
+            <p class="barlow-semi-condensed-medium">
               “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and
               have heard some people who had an amazing experience here. I signed up for the free intro course and found
               it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling -
@@ -47,48 +55,54 @@
             </p>
           </div>
         </div>
-        <div class="testimonial">
+        <div class="testimonial jonathan-walters">
           <div class="testimonial-author">
-            <img src="#" alt="author-image" />
+            <div class="image-container">
+              <img src="images/image-jonathan.jpg" alt="author-image" />
+            </div>
             <div class="author-details">
-              <h4 class="author-name">Jonathan Walters</h4>
-              <p>Verified Graduate</p>
+              <h2 class="author-name barlow-semi-condensed-semibold">Jonathan Walters</h2>
+              <h3 class="verified-graduate barlow-semi-condensed-medium">Verified Graduate</h3>
             </div>
           </div>
           <div class="testimonial-title">
             <h1>The team was very supportive and kept me motivated</h1>
           </div>
           <div class="testimonial-quote">
-            <p>
+            <p class="barlow-semi-condensed-medium">
               “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big
               company. This was one of the best investments I’ve made in myself. ”
             </p>
           </div>
         </div>
-        <div class="testimonial">
+        <div class="testimonial jeanette-harmon">
           <div class="testimonial-author">
-            <img src="#" alt="author-image" />
+            <div class="image-container">
+              <img src="images/image-jeanette.jpg" alt="author-image" />
+            </div>
             <div class="author-details">
-              <h4 class="author-name">Jeanette Harmon</h4>
-              <p>Verified Graduate</p>
+              <h2 class="author-name barlow-semi-condensed-semibold">Jeanette Harmon</h2>
+              <h3 class="verified-graduate barlow-semi-condensed-medium">Verified Graduate</h3>
             </div>
           </div>
           <div class="testimonial-title">
             <h1>An overall wonderful and rewarding experience</h1>
           </div>
           <div class="testimonial-quote">
-            <p>
+            <p class="barlow-semi-condensed-medium">
               “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while
               doing something I love. ”
             </p>
           </div>
         </div>
-        <div class="testimonial">
+        <div class="testimonial patrick-abrams">
           <div class="testimonial-author">
-            <img src="#" alt="author-image" />
+            <div class="image-container">
+              <img src="images/image-patrick.jpg" alt="author-image" />
+            </div>
             <div class="author-details">
-              <h4 class="author-name">Patrick Abrams</h4>
-              <p>Verified Graduate</p>
+              <h2 class="author-name barlow-semi-condensed-semibold">Patrick Abrams</h2>
+              <h3 class="verified-graduate barlow-semi-condensed-medium">Verified Graduate</h3>
             </div>
           </div>
           <div class="testimonial-title">
@@ -98,7 +112,7 @@
             </h1>
           </div>
           <div class="testimonial-quote">
-            <p>
+            <p class="barlow-semi-condensed-medium">
               “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me
               the confidence necessary to be able to go out in the world and present myself as a capable junior
               developer. The standard is above the rest. You will get the personal attention you need from an incredible
@@ -106,19 +120,21 @@
             </p>
           </div>
         </div>
-        <div class="testimonial">
+        <div class="testimonial kira-whittle">
           <div class="testimonial-author">
-            <img src="#" alt="author-image" />
+            <div class="image-container">
+              <img src="images/image-kira.jpg" alt="author-image" />
+            </div>
             <div class="author-details">
-              <h4 class="author-name">Kira Whittle</h4>
-              <p>Verified Graduate</p>
+              <h2 class="author-name barlow-semi-condensed-semibold">Kira Whittle</h2>
+              <h3 class="verified-graduate barlow-semi-condensed-medium">Verified Graduate</h3>
             </div>
           </div>
           <div class="testimonial-title">
             <h1>Such a life-changing experience. Highly recommended!</h1>
           </div>
           <div class="testimonial-quote">
-            <p>
+            <p class="barlow-semi-condensed-medium">
               “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
               professionals who can help me learn programming step by step. I was encouraged to enroll by a former
               student of theirs who can only say wonderful things about the program. The entire curriculum and staff did
