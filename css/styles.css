@@ -44,17 +44,17 @@ p {
 }
 
 .testimonial {
-    padding: 2.5em;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 2.5em;
     border-radius: 10px;
     box-shadow: 35px 45px 25px hsl(0, 0%, 81%);
 }
 
 .testimonial-author {
-    display: flex;
     height: 60px;
+    display: flex;
     gap: 25px;
 }
 
@@ -67,10 +67,10 @@ p {
 }
 
 img {
-    max-height: 100%;
-    max-width: 100%;
     width: 42px;
     height: 42px;
+    max-height: 100%;
+    max-width: 100%;
     border-radius: 50%;
 }
 
